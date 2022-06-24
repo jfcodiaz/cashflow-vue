@@ -2,6 +2,9 @@
     <main>
         <p>{{ labelVisual }}</p>
         <h1>{{ amountCurrency }}</h1>
+        <div class="action">
+            <slot name="action"></slot>
+        </div>
     </main>
 </template>
 <script>
