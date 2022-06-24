@@ -1,16 +1,19 @@
 <template>
     <Layout>
         <template #header>
-            <h1>Hola Mundo</h1>
+            <Header />
         </template>
     </Layout>
 </template>
 
 <script>
 import Layout from "./Layout.vue"
+import Header from "./Header.vue";
+
 export default {
     components: {
-        Layout
+        Layout,
+        Header,
     }
 }
 </script>
